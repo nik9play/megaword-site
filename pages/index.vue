@@ -5,6 +5,11 @@
     </header>
     <section>
       <article>
+        <a href="https://github.com/nik9play/tinyBrightness/releases"><h3>tinyBrightness</h3></a>
+        <p>{{ $t("cards.tinyBrightness.desc")}}</p>
+        <a href="https://github.com/nik9play/tinyBrightness">{{ $t("cards.tinyBrightness.repoLink")}}</a>
+      </article>
+      <article>
         <a href="https://tinypaste.megaworld.space"><h3>{{ $t("cards.tinyPaste.title")}}</h3></a>
         <p>{{ $t("cards.tinyPaste.desc")}}</p>
         <a href="https://github.com/nik9play/tinypaste">{{ $t("cards.tinyPaste.repoLink")}}</a>
@@ -16,8 +21,8 @@
       </article>
     </section>
     <footer>
-      <nuxt-link to="/">English</nuxt-link>
-      <nuxt-link to="/ru">Русский</nuxt-link>
+      <nuxt-link :to="switchLocalePath('en')">English</nuxt-link>
+      <nuxt-link :to="switchLocalePath('ru')">Русский</nuxt-link>
     </footer>
   </main>
 </template>

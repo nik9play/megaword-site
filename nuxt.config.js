@@ -49,9 +49,18 @@ export default {
         defaultLocale: 'en',
         vueI18n: {
           fallbackLocale: 'en',
+          detectBrowserLanguage: {
+            // Set to always redirect to value stored in the cookie, not just once
+            alwaysRedirect: true
+          },
           messages: {
             en: {
               cards: {
+                tinyBrightness: {
+                  title: "tinyBrightness",
+                  desc: "Tiny utility to change monitor brightness via DDC/CI.",
+                  repoLink: "View on GitHub"
+                },
                 tinyPaste: {
                   title: "tinyPaste",
                   desc: "Article publishing platform with encryption and markdown support.",
@@ -66,6 +75,11 @@ export default {
             },
             ru: {
               cards: {
+                tinyBrightness: {
+                  title: "tinyBrightness",
+                  desc: "Небольшая утилита для управления яркостью монитора через DDC/CI.",
+                  repoLink: "Репозиторий GitHub"
+                },
                 tinyPaste: {
                   title: "tinyPaste",
                   desc: "Сервис для создания статей с поддержкой Markdown и шифрованием.",
