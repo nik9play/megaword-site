@@ -39,6 +39,14 @@ export default {
     return {
       tiltOpts: { max: 10, scale: 1.04, glare: true, 'max-glare': .3 }
     }
+  },
+
+  created() {
+    if (this.$nuxt.$device.isMobile) 
+    {
+      this.tiltOpts.max = 0
+      this.tiltOpts.scale = 1
+    }
   }
 }
 </script>
@@ -84,6 +92,7 @@ article {
     width: calc(100% + 2rem);
     margin: -1rem 0 .5rem -1rem;
     border-radius: 1rem 1rem 0 0;
+    transition: transform cubic-bezier(.03,.98,.52,.99) .1s;
   }
 
   a {
@@ -97,6 +106,7 @@ article {
   color: black;
   transition: color 0.2s 0s ease;
   position: relative;
+  transform-style: preserve-3d;
 
   .background {
     position: absolute;
@@ -135,6 +145,10 @@ article {
     a {
       color: #fff;
       border-bottom: 1px #fff dashed;
+    }
+
+    img {
+      transform: translateZ(20px);
     }
   }
 }
