@@ -7594,6 +7594,11 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
+vanilla-tilt@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/vanilla-tilt/-/vanilla-tilt-1.7.0.tgz#4e6d3c6442c6fa2b45c958c9c2013f31686ab461"
+  integrity sha512-u9yUhpSasFeqQCuiTon+RSb0aHzcj9stvWVXQIswzKL5oG491lkYk7U1GmhOAEZt7yPT6EiYZRJhIh2MFBncOA==
+
 vary@^1.1.2, vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
@@ -7700,6 +7705,13 @@ vue-template-es2015-compiler@^1.9.0:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
+
+vue-tilt.js@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/vue-tilt.js/-/vue-tilt.js-1.1.1.tgz#985fa33d7a0915f12615c016224600f29c0771c5"
+  integrity sha512-Tsc+01E9tO5TprUFplYEScU+DxQVY1sWiGlsqYb03R1fpSM5SWzBDeq1cb3Mj1vl+VbD/rlUM0vj5xW0DzUTRw==
+  dependencies:
+    vanilla-tilt "^1.7.0"
 
 vue@^2.6.11:
   version "2.6.11"
