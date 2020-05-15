@@ -10,6 +10,9 @@
     "start": "nuxt start",
     "generate": "nuxt generate"
   },
+  "engines": {
+    "node": "^10"
+  },
   "dependencies": {
     "@nuxtjs/device": "^1.2.7",
     "nuxt": "^2.0.0",
