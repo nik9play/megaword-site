@@ -22,3 +22,11 @@ html {
   margin: 0;
 }
 </style>
+
+<script>
+export default {
+  head () {
+    return this.$nuxtI18nSeo()
+  }
+}
+</script>

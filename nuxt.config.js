@@ -45,7 +45,16 @@ export default {
     [
       'nuxt-i18n',
       {
-        locales: ['en', 'ru'],
+        locales: [
+          {
+            code: 'en',
+            iso: 'en-US'
+          }, 
+          {
+            code: 'ru',
+            iso: 'ru-RU'
+          }
+        ],
         defaultLocale: 'en',
         detectBrowserLanguage: {
           useCookie: true,
