@@ -47,12 +47,13 @@ export default {
       {
         locales: ['en', 'ru'],
         defaultLocale: 'en',
+        detectBrowserLanguage: {
+          useCookie: true,
+          alwaysRedirect: true
+        },
+        strategy: "prefix",
         vueI18n: {
           fallbackLocale: 'en',
-          detectBrowserLanguage: {
-            // Set to always redirect to value stored in the cookie, not just once
-            alwaysRedirect: true
-          },
           messages: {
             en: {
               cards: {
