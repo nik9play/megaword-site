@@ -7,7 +7,7 @@
       <article v-tilt="tiltOpts" v-for="e in $t('cards')" :key="e.title">
         <img :src="e.imgSrc">
         <div class="background"></div>
-        <a :href="e.link"><h3>tinyBrightness</h3></a>
+        <a :href="e.link"><h3>{{e.title}}</h3></a>
         <p>{{ e.desc }}</p>
         <a :href="e.repoHref" class="repoLink">{{ e.repoLink }}</a>
       </article>
