@@ -69,17 +69,34 @@ export default {
                 tinyBrightness: {
                   title: "tinyBrightness",
                   desc: "Tiny utility to change monitor brightness via DDC/CI.",
-                  repoLink: "View on GitHub"
+                  repoLink: "View on GitHub",
+                  imgSrc: "/tinybrightness-scr.svg",
+                  link: "https://github.com/nik9play/tinyBrightness/releases",
+                  repoHref: "https://github.com/nik9play/tinyBrightness"
                 },
                 tinyPaste: {
                   title: "tinyPaste",
                   desc: "Article publishing platform with encryption and markdown support.",
-                  repoLink: "View on GitHub"
+                  repoLink: "View on GitHub",
+                  imgSrc: "/tinyPaste-scr.svg",
+                  link: "https://tinypaste.megaworld.space",
+                  repoHref: "https://github.com/nik9play/tinypaste"
                 },
                 vkBot: {
-                  title: "Bot for Saved photos",
-                  desc: "VK (social network) bot for saving any images to the «Saved Pictures» album.",
-                  repoLink: "View on GitHub"
+                  title: "Bot for «Saved Pictures»",
+                  desc: "VK social network bot for saving any images to the «Saved Pictures» album.",
+                  repoLink: "View on GitHub",
+                  imgSrc: "/vkbot-scr.svg",
+                  link: "https://vk.me/botsavepics",
+                  repoHref: "https://github.com/nik9play/vk-bot-picture"
+                },
+                vkMusicBot: {
+                  title: "VK Music Bot",
+                  desc: "Discord bot for playing music from VK social network.",
+                  repoLink: "View on GitHub",
+                  imgSrc: "/vkmusicbot-scr.svg",
+                  link: "https://discord.com/api/oauth2/authorize?client_id=721772274830540833&permissions=8&scope=bot",
+                  repoHref: "https://github.com/nik9play/vk-music-bot"
                 }
               }
             },
@@ -88,17 +105,34 @@ export default {
                 tinyBrightness: {
                   title: "tinyBrightness",
                   desc: "Небольшая утилита для управления яркостью монитора через DDC/CI.",
-                  repoLink: "Репозиторий GitHub"
+                  repoLink: "Репозиторий GitHub",
+                  imgSrc: "/tinybrightness-scr.svg",
+                  link: "https://github.com/nik9play/tinyBrightness/releases",
+                  repoHref: "https://github.com/nik9play/tinyBrightness"
                 },
                 tinyPaste: {
                   title: "tinyPaste",
                   desc: "Сервис для создания статей с поддержкой Markdown и шифрованием.",
-                  repoLink: "Репозиторий GitHub"
+                  repoLink: "Репозиторий GitHub",
+                  imgSrc: "/tinyPaste-scr.svg",
+                  link: "https://tinypaste.megaworld.space",
+                  repoHref: "https://github.com/nik9play/tinypaste"
                 },
                 vkBot: {
                   title: "Бот для сохраненок",
                   desc: "Бот для ВК предназначенный для сохранения любых изображений в альбом «Сохраненные изображения».",
-                  repoLink: "Репозиторий GitHub"
+                  repoLink: "Репозиторий GitHub",
+                  imgSrc: "/vkbot-scr.svg",
+                  link: "https://vk.me/botsavepics",
+                  repoHref: "https://github.com/nik9play/vk-bot-picture"
+                },
+                vkMusicBot: {
+                  title: "VK Music Bot",
+                  desc: "Бот для Дискорда, который проигрывает музыку из ВК.",
+                  repoLink: "Репозиторий GitHub",
+                  imgSrc: "/vkmusicbot-scr.svg",
+                  link: "https://discord.com/api/oauth2/authorize?client_id=721772274830540833&permissions=8&scope=bot",
+                  repoHref: "https://github.com/nik9play/vk-music-bot"
                 }
               }
             }

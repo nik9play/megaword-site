@@ -4,7 +4,14 @@
       <img src="/logo.svg">
     </header>
     <section>
-      <article v-tilt="tiltOpts">
+      <article v-tilt="tiltOpts" v-for="e in $t('cards')" :key="e.title">
+        <img :src="e.imgSrc">
+        <div class="background"></div>
+        <a :href="e.link"><h3>tinyBrightness</h3></a>
+        <p>{{ e.desc }}</p>
+        <a :href="e.repoHref" class="repoLink">{{ e.repoLink }}</a>
+      </article>
+      <!-- <article v-tilt="tiltOpts">
         <img src="/tinybrightness-scr.svg">
         <div class="background"></div>
         <a href="https://github.com/nik9play/tinyBrightness/releases"><h3>tinyBrightness</h3></a>
@@ -21,10 +28,10 @@
       <article v-tilt="tiltOpts">
         <img src="/vkbot-scr.svg">
         <div class="background"></div>
-        <a href="https://vk.com/botsavepics"><h3>{{ $t("cards.vkBot.title")}}</h3></a>
+        <a href="https://vk.me/botsavepics"><h3>{{ $t("cards.vkBot.title")}}</h3></a>
         <p>{{ $t("cards.vkBot.desc")}}</p>
         <a href="https://github.com/nik9play/vk-bot-picture" class="repoLink">{{ $t("cards.vkBot.repoLink")}}</a>
-      </article>
+      </article> -->
     </section>
     <footer>
       <nuxt-link :to="switchLocalePath('en')">English</nuxt-link>
@@ -47,6 +54,8 @@ export default {
       this.tiltOpts.max = 0
       this.tiltOpts.scale = 1
     }
+
+    console.log(this.$t("cards"))
   }
 }
 </script>
