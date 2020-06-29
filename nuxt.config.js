@@ -95,7 +95,7 @@ export default {
                   desc: "Discord bot for playing music from VK social network.",
                   repoLink: "View on GitHub",
                   imgSrc: "/vkmusicbot-scr.svg",
-                  link: "https://discord.com/api/oauth2/authorize?client_id=721772274830540833&permissions=8&scope=bot",
+                  link: "https://vkmusicbot.megaworld.space",
                   repoHref: "https://github.com/nik9play/vk-music-bot"
                 }
               }
