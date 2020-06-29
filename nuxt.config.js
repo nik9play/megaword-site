@@ -131,7 +131,7 @@ export default {
                   desc: "Бот для Дискорда, который проигрывает музыку из ВК.",
                   repoLink: "Репозиторий GitHub",
                   imgSrc: "/vkmusicbot-scr.svg",
-                  link: "https://discord.com/api/oauth2/authorize?client_id=721772274830540833&permissions=8&scope=bot",
+                  link: "https://vkmusicbot.megaworld.space",
                   repoHref: "https://github.com/nik9play/vk-music-bot"
                 }
               }
