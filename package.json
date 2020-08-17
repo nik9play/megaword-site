@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@nuxtjs/device": "^1.2.7",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.14.3",
     "nuxt-i18n": "^6.6.1",
     "vue-tilt.js": "^1.1.1"
   },
